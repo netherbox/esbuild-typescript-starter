@@ -1,0 +1,16 @@
+{
+  "name": "esbuild-typescript-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "node ./scripts/esbuild-build.mjs",
+    "serve": "node ./scripts/esbuild-serve.mjs",
+    "validate": "tsc --noemit"
+  },
+  "author": "Denis Zenkovich",
+  "license": "ISC",
+  "devDependencies": {
+    "@craftamap/esbuild-plugin-html": "0.6.1",
+    "esbuild": "0.19.2",
+    "esbuild-plugin-clean": "1.0.1"
+  }
+}
